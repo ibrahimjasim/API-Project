@@ -7,7 +7,6 @@ from .serializers import ProfileSerializer
 from drf_api.permissions import IsOwnerOrReadOnly
 
 
-
 class ProfileList(APIView):
     """
     List all profiles
@@ -22,6 +21,9 @@ class ProfileList(APIView):
 
 
 class ProfileDetail(APIView):
+    """
+    Retrieve a profile or edit it if you own it
+    """
     serializer_class = ProfileSerializer
     permission_classes = [IsOwnerOrReadOnly]
 
