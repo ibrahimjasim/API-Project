@@ -50,5 +50,29 @@ Welcome to Fotogram, your go-to social media app! Fotogram is a dynamic platform
 | Contacts   | contacts/            | Yes    | Yes      | Yes    | Yes    | No            | Name          |
 |            | contacts/:id/        | Yes    | Yes      | Yes    | Yes    | No            | Name          |
 
+## Database schema.
+![Api Diagram - SqlDBM - Google Chrome 2023-12-13 13_29_45](https://github.com/ibrahimjasim/API-Project/assets/127301769/d8ee9018-3d57-483e-bf40-aa84beece261)
 
+
+## Deployment steps
+- set the following environment variables:
+    - CLIENT_ORIGIN
+    - CLOUDINARY_URL
+    - DATABASE_URL
+    - DISABLE_COLLECTSTATIC
+    - SECRET_KEY
+- installed the following libraries to handle database connection:
+    - psycopg2
+	- dj-database-url
+- configured dj-rest-auth library for JWTs
+- set allowed hosts
+- configured CORS:
+	- set allowed_origins
+- set default renderer to JSON
+- added Procfile with release and web commands
+- gitignored the env&#46;py file
+- generated requirements.txt
+- deployed to Heroku
+
+---
 
