@@ -49,3 +49,6 @@ Welcome to Fotogram, your go-to social media app! Fotogram is a dynamic platform
 |            | events/:id/          | Yes    | Yes      | Yes    | Yes    | No            | Title         |
 | Contacts   | contacts/            | Yes    | Yes      | Yes    | Yes    | No            | Name          |
 |            | contacts/:id/        | Yes    | Yes      | Yes    | Yes    | No            | Name          |
+
+
+
