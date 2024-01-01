@@ -1,4 +1,4 @@
-# Moments - API
+# Fotogram - API
 
 ## User stories
 Welcome to Fotogram, your go-to social media app! Fotogram is a dynamic platform crafted to empower users to share the meaningful moments of their lives.
