@@ -66,7 +66,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = 'DEV' in os.environ
 
 ALLOWED_HOSTS = [
-    os.environ.get('ALLOWED_HOST'),
+    '8000-ibrahimjasim-api-project-9t9vyb4i33.us2.codeanyapp.com',  os.environ.get('ALLOWED_HOST'),
     'localhost',
 ]
 
