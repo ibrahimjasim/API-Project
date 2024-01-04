@@ -30,7 +30,7 @@ Welcome to Fotogram, your go-to social media app! Fotogram is a dynamic platform
 | Contacts  | User - Remove a contact                   | Manage my contact list                       | Destroy contact       
 
 
-## Models and CRUD breakdown
+## Testing 
 | Model      | Endpoint            | Create | Retrieve | Update | Delete | Filter        | Text Search   |
 |------------|---------------------|--------|----------|--------|--------|---------------|---------------|
 | Users      | users/              | Yes    | Yes      | Yes    | No     | No            | No            |
@@ -55,7 +55,7 @@ Welcome to Fotogram, your go-to social media app! Fotogram is a dynamic platform
 
 
 ## Deployment steps
-- set the following environment variables:
+- set the following environment variables in  Heroku config vars:
     - CLIENT_ORIGIN
     - CLOUDINARY_URL
     - DATABASE_URL
